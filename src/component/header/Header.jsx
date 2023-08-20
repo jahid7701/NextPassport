@@ -9,7 +9,7 @@ export default function Header() {
                 
                         <Image src={Logo} alt="" className="glogo" />
                         <p>Government of the <br />People&apos;s Republic of Bangladesh</p> 
-                      
+                    
                        
                 </div>
                 <div className="rflogo">
