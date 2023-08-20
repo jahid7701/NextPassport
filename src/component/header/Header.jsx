@@ -7,7 +7,7 @@ export default function Header() {
                 <div className="lflogo">
                
                 
-                        <Image src={Logo} className="glogo" />
+                        <Image src={Logo} alt="" className="glogo" />
                         <p>Government of the <br />People&apos;s Republic of Bangladesh</p> 
                       
                        
@@ -15,7 +15,7 @@ export default function Header() {
                 <div className="rflogo">
                 <p>Dipartment of <br/> Immigration & Passports</p>
                 
-                <Image src={Dlogo}  className="plogo" />
+                <Image src={Dlogo} alt=""  className="plogo" />
                 </div>
         </div>)
 }
