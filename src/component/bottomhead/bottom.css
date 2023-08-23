@@ -11,9 +11,11 @@ width:100%;
 }
 .navbot li{
     list-style-type: none;
+    ;
 }
 .navbot li a{
     text-decoration: none;
+    
 }
 .ghome{
     font-size:4rem;
