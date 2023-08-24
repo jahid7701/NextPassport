@@ -5,13 +5,10 @@
     justify-content:space-around;
 height:80px;
 width:100%;
-
-
-
 }
 .navbot li{
     list-style-type: none;
-    ;
+    
 }
 .navbot li a{
     text-decoration: none;

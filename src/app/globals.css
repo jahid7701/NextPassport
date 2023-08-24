@@ -36,7 +36,6 @@
 .card{
   width: 1000px;
   height:600px;
-  
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -46,6 +45,7 @@
 }
 .bangladeshi1_o{
   display:none;
+  margin-left: 100px;
 }
 .radiob{
   display: flex;
@@ -54,6 +54,7 @@
   width: 150px;
   flex-direction: column;
   height:100px;
+  margin-left:60px;
 }
 .ghome{
   font-size: 4rem;
@@ -61,3 +62,39 @@
 .khoki{
   font-size: 3rem;
 }
+.native input{
+  padding:7px 90px;
+  margin-top:5px;
+}
+.foreign input{
+  padding:7px 90px;
+  margin-top:5px;
+}
+.btn{
+  padding:8px 15px;
+  background-color:seagreen;
+  border:none;
+  margin-top:20px;
+  color: aliceblue;
+  font-size:1.05rem;
+  
+}
+.bangladeshi1_o h2{
+  margin-bottom:20px;
+}
+.jahil{
+  margin-top:20px;
+}
+.hnn{
+  margin-top:20px;
+}
+.bangladeshi1_p{
+  margin-left:100px;
+}
+.fuji{
+  margin-top:20px;
+}
+.haji{
+  margin-left:100px;
+  margin-top:70px
+  }
