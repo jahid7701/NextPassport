@@ -19,11 +19,7 @@
   background-repeat: no-repeat;
   background-size: cover;     
 }
-.bottomhead{
-  height:80px;
-  width:100%;
-  background-color: rgb(237, 226, 226);
-}
+
 
 .apply{
   height: 400px;
@@ -58,6 +54,7 @@
 }
 .ghome{
   font-size: 4rem;
+ 
 }
 .khoki{
   font-size: 3rem;
@@ -98,3 +95,32 @@
   margin-left:100px;
   margin-top:70px
   }
+  
+ .navbot{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content:space-around;
+height:80px;
+width:100%;
+background-color: rgb(198, 207, 216);
+
+
+/* text-align: center; */
+}
+.navbot li{
+  list-style-type: none;
+
+  background-color: aqua;
+height:100%;
+padding:20px;
+ 
+}
+.navbot li a{
+  text-decoration: none;
+
+}
+
+.navbot li a:active{
+  background-color: brown;
+}
