@@ -16,7 +16,7 @@ export default function Apply() {
             </div>
             <div className= "radiob">
                 <div className="radiobt1">
-                    <input type="radio" checked name="status" id="hadi" />YES
+                    <input type="radio"  name="status" id="hadi" />YES
                 </div>
                 <br />
                 <div>

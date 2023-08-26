@@ -4,14 +4,14 @@ export default function Bottomhead() {
     return (
         <div className="bottomhead">
             <ul className="navbot">
-                <li><Link href={"/"}><p><HomeIcon className="ghome" /></p></Link></li>
-                <li><Link href={"/apply"}><p>APPLY ONLINE</p></Link></li>
-                <li ><Link href={"/step"} ><p>5 STEPS TO<br /> e-PASSPORT</p></Link></li>
-                <li><Link href={"/urgent"}><p>URGENT<br /> APPLICATION</p></Link></li>
-                <li ><Link href={"/instuction"}><p>INSTRUCTIONS</p></Link></li>
-                <li><Link href={"/fees"}> <p>PASSPORT FEES</p></Link></li>
-                <li><Link href={"/check"}><p>CHECK STATUS</p></Link></li>
-                <li><Link href={"/contact"}><p>CONTACT</p></Link></li>
+                <Link href={"/"}><HomeIcon className="ghome" /></Link>
+                <Link href={"/apply"} className="asia">APPLY ONLINE</Link>
+                <Link href={"/step"} >5 STEPS TO<br /> e-PASSPORT</Link>
+                <Link href={"/urgent"}>URGENT<br /> APPLICATION</Link>
+                <Link href={"/instuction"}>INSTRUCTIONS</Link>
+                <Link href={"/fees"}> PASSPORT FEES</Link>
+                <Link href={"/check"}>CHECK STATUS</Link>
+                <Link href={"/contact"}>CONTACT</Link>
             </ul>
         </div>
     )

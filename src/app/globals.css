@@ -96,31 +96,32 @@
   margin-top:70px
   }
   
- .navbot{
+ .navbot {
+  background-color: rgb(234, 225, 225);
+  height:80px;
+  width:100%;
   display: flex;
-  flex-direction: row;
-  align-items:center;
+  flex-direction:row;
   justify-content:space-around;
-height:80px;
-width:100%;
-background-color: rgb(198, 207, 216);
+  align-items: center;
+ }
+ .navbot  a{
+  height:100%;
+  padding:25px 30px;
 
-
-/* text-align: center; */
-}
-.navbot li{
-  list-style-type: none;
-
-  background-color: aqua;
-height:100%;
-padding:20px;
- 
-}
-.navbot li a{
   text-decoration: none;
+ }
+ .navbot a:active{
+  background-color: #1E88E5;
+ }
+ .navbot a:hover{
+  background-color: #1E88E5;
+ }
+ .navbot .asia{
+  background-color:rgb(207, 205, 200);
+ }
+ .navbot .asia:hover{
+  color: white;
+  background-color: #1E88E5;
+ }
 
-}
-
-.navbot li a:active{
-  background-color: brown;
-}
