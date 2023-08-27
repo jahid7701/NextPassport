@@ -1,10 +1,11 @@
 import Link from "next/link"
 import HomeIcon from '@mui/icons-material/Home';
+import Icon from "@/component/style/icon.module.css";
 export default function Bottomhead() {
     return (
         <div className="bottomhead">
             <ul className="navbot">
-                <Link href={"/"}><HomeIcon className="ghome" /></Link>
+                <Link href={"/"}><HomeIcon className={Icon.jalba} /></Link>
                 <Link href={"/apply"} className="asia">APPLY ONLINE</Link>
                 <Link href={"/step"} >5 STEPS TO<br /> e-PASSPORT</Link>
                 <Link href={"/urgent"}>URGENT<br /> APPLICATION</Link>
