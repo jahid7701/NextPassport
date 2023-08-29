@@ -1,4 +1,7 @@
 'use client'
+
+import Country from "@/component/Country/Country";
+
 export default function Apply() {
 
     const positiv = () => {
@@ -37,18 +40,8 @@ export default function Apply() {
                 <h2>Select the country of your present address</h2>
                 <div className="foreign">
                     <p className="jahil">Select country</p>
-                    <select id="selecboxt">
-                     
-                        <option>Bangladesh</option>
-                        <option>Afganisthan</option>
-                        <option>Nepal</option>
-                        <option>Srilanka</option>
-                        <option>South Africa</option>
-                        <option>Australia</option>
-                        <option>England</option>
-                        <option>New Zealand</option>
-                    </select>
-                    
+
+                    <Country/>
                     <p className="hnn"> Select a Bangladesh Mission</p>
                     <input type="text" />
                 </div>
