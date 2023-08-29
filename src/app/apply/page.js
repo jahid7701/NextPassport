@@ -41,7 +41,7 @@ export default function Apply() {
                 <div className="foreign">
                     <p className="jahil">Select country</p>
 
-                    <Country/>
+                   
                     <p className="hnn"> Select a Bangladesh Mission</p>
                     <input type="text" />
                 </div>
