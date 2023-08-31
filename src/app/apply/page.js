@@ -1,6 +1,6 @@
 'use client'
 
-import Country from "@/component/Country/Country";
+
 
 export default function Apply() {
 
