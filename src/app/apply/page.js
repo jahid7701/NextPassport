@@ -49,7 +49,7 @@ export default function Apply() {
                     {
 Cdatas.map((value,index)=>{
     return(
-<option>{value.country}</option>
+<option key={index}>{value.country}</option>
     )
 })
                     }
