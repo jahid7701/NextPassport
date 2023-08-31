@@ -43,9 +43,7 @@ export default function Apply() {
                 <div className="foreign">
                     <p className="jahil">Select country</p>
 
-                   
-                    <p className="hnn"> Select a Bangladesh Mission</p>
-                   <select>
+                    <select>
                     {
 Cdatas.map((value,index)=>{
     return(
@@ -55,6 +53,9 @@ Cdatas.map((value,index)=>{
                     }
                     
                    </select>
+                    <p className="hnn"> Select a Bangladesh Mission</p>
+                    <input type="text" />
+            
                 </div>
                 <button type="submit" className="btn">Continue</button>
             </form>
