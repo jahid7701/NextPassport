@@ -1,8 +1,10 @@
 'use client'
 
-
+import Cdatas from "@/component/lib/countrydata";
 
 export default function Apply() {
+
+
 
     const positiv = () => {
         const hasan = document.querySelector(".bangladeshi1_p");
@@ -43,7 +45,16 @@ export default function Apply() {
 
                    
                     <p className="hnn"> Select a Bangladesh Mission</p>
-                    <input type="text" />
+                   <select>
+                    {
+Cdatas.map((value,index)=>{
+    return(
+<option>{value.country}</option>
+    )
+})
+                    }
+                    
+                   </select>
                 </div>
                 <button type="submit" className="btn">Continue</button>
             </form>

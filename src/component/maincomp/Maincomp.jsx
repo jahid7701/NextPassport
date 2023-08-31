@@ -1,7 +1,7 @@
 import Data from "@/component/lib/countrydata";
-export default function Maincomp(){
-   
+export default function Maincomp(){  
     return(<div>
+     
       {
         Data.map((value,index)=>{
             return(
