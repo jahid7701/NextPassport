@@ -3,6 +3,7 @@ import Cdatas from "@/component/lib/countrydata";
 import Pdata from "@/component/lib/Police";
 import { useState } from "react";
 export default function Apply() {
+        
     const [pold, setpold] = useState("");
     const [pstaes, setpStaes] = useState([]);
     const policehn = (e) => {
@@ -25,10 +26,18 @@ export default function Apply() {
         const citd = e.target.value;
         setCsta(citd);
     }
+    const nativ=()=>{
+        const hasan = document.querySelector(".bangladeshi1_p");
+        const hasanin = document.querySelector(".bangladeshi1_o");
+        hasan.style.display = "block";
+        hasanin.style.display = "none";
+
+    }
    
     const positiv = () => { 
         const hasan = document.querySelector(".bangladeshi1_p");
-    const hasanin = document.querySelector(".bangladeshi1_o");      
+        const hasanin = document.querySelector(".bangladeshi1_o");
+        
         hasan.style.display = "none";
         hasanin.style.display = "block";
     }
@@ -40,7 +49,7 @@ export default function Apply() {
             </div>
             <div className="radiob">
                 <div className="radiobt1">
-                    <input type="radio" name="status" id="hadi"  />YES
+                    <input type="radio" name="status" id="hadi" checked onClick={nativ}  />YES
                 </div>
                 <br />
                 <div>
