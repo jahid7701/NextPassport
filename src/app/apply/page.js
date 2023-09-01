@@ -40,7 +40,7 @@ export default function Apply() {
             </div>
             <div className="radiob">
                 <div className="radiobt1">
-                    <input type="radio" name="status" id="hadi"  onClick={nativ} />YES
+                    <input type="radio" name="status" id="hadi"  />YES
                 </div>
                 <br />
                 <div>
