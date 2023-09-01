@@ -96,7 +96,7 @@ export default function Apply() {
                         {
                             staes.map((st, index) => {
                                 return (
-                                    <option value={st}>{st}</option>
+                                    <option value={st} key={index}>{st}</option>
                                 )
                             })
                         }
