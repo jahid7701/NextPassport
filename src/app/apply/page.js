@@ -3,8 +3,6 @@ import Cdatas from "@/component/lib/countrydata";
 import Pdata from "@/component/lib/Police";
 import { useState } from "react";
 export default function Apply() {
-    const hasan = document.querySelector(".bangladeshi1_p");
-    const hasanin = document.querySelector(".bangladeshi1_o");
     const [pold, setpold] = useState("");
     const [pstaes, setpStaes] = useState([]);
     const policehn = (e) => {
@@ -27,12 +25,10 @@ export default function Apply() {
         const citd = e.target.value;
         setCsta(citd);
     }
-    const nativ=()=>{
-        hasan.style.display = "block";
-        hasanin.style.display = "none";
-
-    }
-    const positiv = () => {       
+   
+    const positiv = () => { 
+        const hasan = document.querySelector(".bangladeshi1_p");
+    const hasanin = document.querySelector(".bangladeshi1_o");      
         hasan.style.display = "none";
         hasanin.style.display = "block";
     }
