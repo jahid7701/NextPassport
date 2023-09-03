@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function SignIn(){
     return(
         <div>
@@ -8,7 +10,7 @@ export default function SignIn(){
             <div><label for="password">Password</label><br/>
             <input type="password"/>
             </div>
-            <p>Forgot Password</p>
+            <Link href={"/forgot"}>Forgot Password</Link>
             <div>
                 <input type="checkbox"/>
             </div>
