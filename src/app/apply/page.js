@@ -35,6 +35,7 @@ export default function Apply() {
     }
    
     const positiv = () => { 
+        
         const hasan = document.querySelector(".bangladeshi1_p");
         const hasanin = document.querySelector(".bangladeshi1_o");
         
