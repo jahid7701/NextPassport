@@ -5,7 +5,7 @@ export default function Headerm(){
         <div>
             <Link href={"/signin"}>Sign In</Link>
             <div>
-                <p>Englosh</p>
+                <p>English</p>
                 <p>Bangla</p>
             </div>
             <div>
