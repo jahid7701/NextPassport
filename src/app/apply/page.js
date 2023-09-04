@@ -27,7 +27,7 @@ export default function Apply() {
         setCsta(citd);
     }
     const nativ=(e)=>{
-        e.preventdefault();
+        e.preventDefault();
         const hasan = document.querySelector(".bangladeshi1_p");
         const hasanin = document.querySelector(".bangladeshi1_o");
         hasan.style.display = "block";
@@ -36,7 +36,7 @@ export default function Apply() {
     }
    
     const positiv = (e) => { 
-        e.preventdefault();
+        e.preventDefault();
         const hasan = document.querySelector(".bangladeshi1_p");
         const hasanin = document.querySelector(".bangladeshi1_o");
         
